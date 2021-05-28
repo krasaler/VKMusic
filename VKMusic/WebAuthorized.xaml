@@ -1,0 +1,9 @@
+﻿<Window x:Class="VKMusic.WebAuthorized"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WebAuthorized" Height="352.72" Width="513.389">
+    <Grid>
+        <WebBrowser x:Name="webBrowser1" Height="322" VerticalAlignment="Top" Navigated="WebBrowser_Navigated"/>
+
+    </Grid>
+</Window>
